@@ -1,5 +1,4 @@
 FROM nginx:latest
 WORKDIR app
 EXPOSE 80 
-RUN echo "hello"
 COPY file.txt
